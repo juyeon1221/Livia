@@ -1,0 +1,26 @@
+.box {
+    background-color: white;
+    width: 1352px;
+    height: 297px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding-top: 26px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title p {
+    color: gray;
+    font-weight: 400;
+}

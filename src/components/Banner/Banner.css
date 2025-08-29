@@ -1,0 +1,36 @@
+.banner_wrap {
+    width: 808px;
+    height: 1080px;
+    position: relative;
+}
+
+.banner_card {
+    width: 808px;
+    height: 1080px;
+}
+
+.banner_card,
+.banner_card img {
+    display: block;
+}
+
+.banner_card img {
+    object-fit: cover;
+}
+
+/* Swiper 내비/페이징 커스터마이즈(선택) */
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0.5);
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+    opacity: .7;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #2563eb;
+    opacity: 1;
+}

@@ -1,0 +1,63 @@
+header {
+    width: 1920px;
+    height: 120px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    padding: 0 180px;
+    align-items: center;
+    text-align: center;
+}
+
+header .left_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin-right: 148px;
+}
+
+header .top_menu {
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+
+header .top_menu > li {
+    font-size: 18px;
+    padding: 0 28px;
+}
+
+header .top_menu > li:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn {
+    position: absolute;
+    left: 1600px;
+    width: 149px;
+    height: 60px;
+    background-color: #2563eb;
+    border: none;
+    font-size: 18px;
+}
+
+.btn > a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn > a:hover {
+    text-decoration: none;
+    color: #2563eb;
+    cursor: pointer;
+}
