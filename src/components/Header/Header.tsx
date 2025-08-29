@@ -21,8 +21,7 @@ function Header () {
                         </ul>
                     </nav>
                 </div>
-
-                <button className="btn"><Link to="contact">Contact Us</Link></button>
+                <button className="btn"><Link to="contactus">Contact Us</Link></button>
             </header>
         </>
     );
